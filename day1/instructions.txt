@@ -1,0 +1,56 @@
+1d 23h left
+ALL
+1
+1. Area of the Box
+Given a box of chocolate bars of dimension N × M, choose an area a × a  such that for all a, 1 ≤ a ≤ min(N,M). Given multiple values of N and M, find the number of ways to choose the area of dimension a x a from the box of dimension N x M for all a.
+
+ 
+
+For example, given a box of bars where N = 2 and M = 2, there is one way to have a 2 x 2 bar, and there are 4 ways to choose a 1 x 1 bar. In this case, the number of ways to choose a x a bars for all valid values of  a is 5.
+
+ 
+Function Description
+
+Complete the function numberOfWays in the editor below. The function must return an array of long integers where element i denotes the result of the test cases[i].
+
+ 
+
+numberOfWays has the following parameter(s):
+
+    cases[cases[0],...cases[n-1]]:  a 2D array of integers with dimensions as number of cases x 2.
+
+ 
+
+Constraints
+
+1 ≤ number of test cases ≤ 2500
+1 ≤ N, M ≤ 2500
+ 
+
+Input Format For Custom Testing
+Sample Case 0
+Sample Input For Custom Testing
+
+2
+2
+2 1
+2 3
+Sample Output
+
+2
+8
+Explanation
+
+There are T = 2 test cases.
+
+In 1st test case is N=2, M=1.
+
+The number of ways to select an area of dimension 1 is 2.
+
+ 
+
+In the 2nd test case, N=2, M=3.
+
+The number of ways to select the area of dimension 1 is 6 and of dimension 2 is 2.
+
+Hence the output is 6+2=8.
